@@ -1,0 +1,5 @@
+Pmooc JDK11为稳定版，JDK9,10,12,13不稳定。从9开始，采取模块化变成，在包结构外新增了module结构，采用module-info.java文件，进行接口的引入和抛出。例如
+1，exports 包；opens 包；
+2. requires moduleName；
+3.requires transitive moduleName;//可传递的module模块
+4.provides 接口 with 实现类；uses 接口。
